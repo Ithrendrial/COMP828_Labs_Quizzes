@@ -1,15 +1,10 @@
 ---
-title: "My answers"
+title: "Week 2 Lab Answers"
 author: "Rachel Coxhead"
 date: "2026-03-02"
-output: html_document
+output:
+  pdf_document: default
 ---
-
-
-```{r}
-# Write your answer here
-```
-
 
 #### Summary Statistics
 
@@ -22,6 +17,8 @@ See the description of the dataset and find how to extract each variable.
 
 ```{r}
 # Write your answer here
+mean(mtcars$mpg[mtcars$cyl==4])
+mean(mtcars$mpg[mtcars$cyl==8])
 ```
 
 
@@ -29,6 +26,10 @@ See the description of the dataset and find how to extract each variable.
 
 ```{r}
 # Write your answer here
+automatic <- mtcars[which(mtcars$am==0),]
+manual <- mtcars[which(mtcars$am==1),]
+summary(automatic)
+summary(manual)
 ```
 
 
@@ -36,6 +37,8 @@ See the description of the dataset and find how to extract each variable.
 
 ```{r}
 # Write your answer here
+sd(mtcars$mpg)
+sd(mtcars$wt)
 ```
 
 
