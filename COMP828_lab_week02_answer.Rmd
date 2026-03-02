@@ -4,6 +4,7 @@ author: "Rachel Coxhead"
 date: "2026-03-02"
 output:
   pdf_document: default
+  html_document: default
 ---
 
 #### Summary Statistics
