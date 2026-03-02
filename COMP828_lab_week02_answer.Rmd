@@ -49,6 +49,7 @@ sd(mtcars$wt)
 
 ```{r}
 # Write your answer here
+barplot(table(mtcars$am), main = "Types of Transmission", xlab = "Transmission Type", ylab = "Number of Cars")
 ```
 
 
@@ -56,6 +57,7 @@ sd(mtcars$wt)
 
 ```{r}
 # Write your answer here
+hist(mtcars$cyl, main="Cars per Cylinder Number", xlab = "Cylinders", ylab = "Number of Cars")
 ```
 
 
@@ -63,6 +65,8 @@ sd(mtcars$wt)
 
 ```{r}
 # Write your answer here
+summary(mtcars$wt)
+boxplot(mtcars$wt, main = "Car Weights (1000lb")
 ```
 
 
