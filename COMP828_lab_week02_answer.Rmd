@@ -1,0 +1,67 @@
+---
+title: "My answers"
+author: "My name"
+date: "2024-02-26"
+output: html_document
+---
+
+
+```{r}
+# Write your answer here
+```
+
+
+#### Summary Statistics
+
+(@) Consider the `mtcars` dataset. Compare the average miles per gallon between 4 and 8 cylinders.
+
+```{block, box.title = "Tip", box.body = list(fill = "lightblue")}
+See the description of the dataset and find how to extract each variable.
+```
+
+
+```{r}
+# Write your answer here
+```
+
+
+(@) Compare the summary statistics between the different transmissions.
+
+```{r}
+# Write your answer here
+```
+
+
+(@) For the miles per gallon and weights, which one has more variation?
+
+```{r}
+# Write your answer here
+```
+
+
+#### Plots
+
+(@) Make the barplot for the number of cars with different transmissions.
+
+```{r}
+# Write your answer here
+```
+
+
+(@) What is the best way to see the distribution of cars by number of cylinders?
+
+```{r}
+# Write your answer here
+```
+
+
+(@) Find the summary statistics for weights and see if they agree with the information obtained from the boxplot.
+
+```{r}
+# Write your answer here
+```
+
+
+#### Further practice
+
+You can practice more with built-in datasets in `R`. To find other datasets, type `data()` in the console to see more available datasets for you to try.
