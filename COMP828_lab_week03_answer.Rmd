@@ -1,0 +1,54 @@
+---
+title: "My answers"
+author: "My name"
+date: "2024-03-03"
+output: html_document
+---
+
+
+```{r}
+# Write your answer here
+```
+
+
+#### Working with Data
+
+(@) Import the dataset `Soccer_Table_2014-2015.csv` into `R` . (Thanks to Kirsten Spencer who supplied the dataset.)
+
+\fontsize{8}{8}
+
+```{r}
+# Write your answer here
+```
+
+
+\fontsize{11}{11}
+
+(@) Compare the summary statistics of goal difference `GD` between the home and away league tables.
+
+\fontsize{8}{8}
+
+```{r}
+# Write your answer here
+```
+
+
+\fontsize{11}{11}
+
+(@) Which one has more variation?
+
+```{r}
+# Write your answer here
+```
+
+
+(@) Compare the relationship of number of wins and goal difference between the home and away games.
+
+```{r}
+# Write your answer here
+```
+
+
+#### Further practice
+
+You can practice more with other leagues in other countries from the file. You can also find more data from the `kaggle` open datasets (https://www.kaggle.com/datasets).
